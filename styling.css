@@ -1,3 +1,9 @@
+.jumboimage{
+    background: url(https://static.pexels.com/photos/7919/pexels-photo.jpg);
+    background-size: 100% 100%;
+    height:600px;
+}
+
 /*Body:
 -GIve the body element a relatice position for the scrollspy to work.
 Add a font family to the whoel page*/
