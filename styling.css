@@ -1,7 +1,7 @@
 .jumboimage{
-      background: url(https://static.pexels.com/photos/7919/pexels-photo.jpg);
-    background-size: 100% 100%;
-    height:600px;
+      background: url(https://static.pexels.com/photos/7919/pexels-photo.jpg) center center fixed;
+    background-size: cover;
+
 }
 
 /*Body:
