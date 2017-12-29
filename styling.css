@@ -4,7 +4,15 @@ body{
     background-size: cover;
     font-family: 'Roboto' , sans-serif;
 }
-
+.face{
+    color: white;
+   margin-top:.8em;
+}
+.linked{
+    color:white;
+    margin-top:.8em;
+    margin-left:.5em;
+}
 /*Style the Home section and elemenets inside it:
 -reduce the margin-bottom of h1 and h2.
 -style the button and its hover state*/
