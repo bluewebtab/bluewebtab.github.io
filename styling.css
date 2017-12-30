@@ -4,14 +4,11 @@ body{
     background-size: cover;
     font-family: 'Roboto' , sans-serif;
 }
-.face{
-    color: white;
-   margin-top:.8em;
-}
+
 .linked{
     color:white;
-    margin-top:.8em;
-    margin-left:.5em;
+    margin-top:.4em;
+    margin-left:-.3em;
 }
 /*Style the Home section and elemenets inside it:
 -reduce the margin-bottom of h1 and h2.
