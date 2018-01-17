@@ -129,3 +129,20 @@ body{
 .navbar-custom .navbar-link:hover {
   color: #c0c0c0;
 }
+
+
+/*Projects page*/
+.projecto{
+    color:white;
+}
+.app-page{
+    padding:20px;
+}
+.app-page img{
+    height:200px;
+    width:auto;
+}
+.app-page h2{
+    color:white;
+}
+
