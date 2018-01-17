@@ -145,4 +145,13 @@ body{
 .app-page h2{
     color:white;
 }
-
+.food-site{
+    padding:20px;
+}
+.food-site img{
+    height:200px;
+    width:auto;
+}
+.food-site h2{
+color:white;
+}
