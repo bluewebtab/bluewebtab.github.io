@@ -95,7 +95,7 @@
         margin-left: 0%;
     }
     
-    .app-screen { width: 40%; }
+    .app-screen { margin:1px auto auto; }
     .steps-box:first-child { text-align: center; }
     
     .works-step div {
@@ -106,8 +106,12 @@
         font-size: 120%;
     }
     
-    .works-step { margin-bottom: 20px; }
+    .works-step { margin-bottom: 20px;
+    padding-right:}
     .works-step:last-of-type { margin-bottom: 20px; }
+    .contact-form{margin-top:-25px;}
+    div.form-box{ padding:10px;}
+    
     
 }
 
@@ -116,6 +120,6 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
-    .contact-form {width: 100%; }
+    .contact-form {height:auto; }
 }
 
