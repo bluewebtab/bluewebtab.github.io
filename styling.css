@@ -167,12 +167,12 @@ color:white;
 }
 
 /*contact*/
-.creator-info{
+section.creator-info{
     background-color:#f4f4f4;
     width:600px;
     border-radius: 5px;
- position: fixed;
-  top: 50%;
-  left: 30%;
+    margin: 20vw auto auto;
+
+  
 }
 
