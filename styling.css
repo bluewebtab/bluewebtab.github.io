@@ -187,11 +187,16 @@ color:white;
 
     }
 @media (max-width:300px){
+    body{
+        overflow:scroll;
+        overflow-x: hidden;
+    }
     nav{width:27rem;}
     
     #home h2{
   width:25rem;
 }
+    
 }
 
 
