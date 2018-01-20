@@ -1,9 +1,13 @@
+
+
 body{
+    
     text-align:center;
     background: url(images/nature.jpg) no-repeat center center fixed;
   
     background-size: cover;
     font-family: 'Roboto' , sans-serif;
+  
 }
 
 .linked{
@@ -27,6 +31,8 @@ body{
 #home h2{
    font-size:50px;
 }
+
+
 .navbar-custom {
   background-color: #000000;
   border-color: #000000;
@@ -167,12 +173,19 @@ color:white;
 }
 
 /*contact*/
-section.creator-info{
+
+.creator-info{
     background-color:#f4f4f4;
-    width:600px;
+    width:27rem;
+    font-weight:500;
+    font-size:140%;
     border-radius: 5px;
-    margin: 20vw auto auto;
+    margin: 20vw  auto;
+    padding:2%;
 
-  
-}
+    }
 
+
+
+
+    
