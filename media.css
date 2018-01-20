@@ -1,0 +1,5 @@
+@media and (max-width:320px){
+    .app-page img{
+        width:30%;
+    }
+}
