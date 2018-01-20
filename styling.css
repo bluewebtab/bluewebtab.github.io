@@ -190,7 +190,7 @@ color:white;
     body{
         overflow:scroll;
         overflow-x: hidden;
-        background-attachment: scroll;
+     
     }
     nav{width:27rem;}
     
