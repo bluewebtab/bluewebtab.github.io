@@ -146,7 +146,7 @@ body{
 }
 .app-page img{
     height:200px;
-    width:27rem;
+    width:30rem;
    
 }
 .app-page h2{
@@ -157,7 +157,7 @@ body{
 }
 .food-site img{
     height:200px;
-    width:27rem;
+    width:30rem;
 }
 .food-site h2{
 color:white;
@@ -167,9 +167,19 @@ color:white;
 }
 .conference img{
    height:200px;
-    width:27rem; 
+    width:30rem; 
 }
 .conference h2{
+    color:white
+}
+.commerce{
+   padding:20px; 
+}
+.commerce img{
+   height:200px;
+    width:30rem; 
+}
+.commerce h2{
     color:white
 }
 
@@ -199,7 +209,9 @@ color:white;
     
 }
 
-
+.creation{
+    color:#fff;
+}
 
 
     
