@@ -1,0 +1,135 @@
+
+
+.work{
+    overflow: hidden;
+    .info-section{
+        width: 20%;
+    }
+       .content-area{
+        margin-left: 30%;
+        width: 80%;
+        min-width: 300px;
+        background: white;
+        height: 100%;
+        padding: 56px;
+        .work-section{
+           
+            h1{
+                font-weight: 700;
+                font-size: 2rem;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                
+            }
+      
+       
+             .project-section{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              margin-right:14.45rem;
+              
+    
+             
+              
+              .project-box{
+                    position:relative;
+                    // padding: 200px;
+                    transition: all .3s ease-in-out;
+                    cursor: pointer;
+                    width:400px;
+                   
+                    
+                   
+                   
+                    
+
+
+                    &:hover{
+                      -webkit-box-shadow: 6px 22px 71px -9px rgba(0,0,0,0.33);
+                    -moz-box-shadow: 6px 22px 71px -9px rgba(0,0,0,0.33);
+                    box-shadow: 6px 22px 71px -9px rgba(0,0,0,0.33);
+                   
+                    }
+                    .grey-bg{
+                        background: #efefef;
+                        position:absolute;
+                        top:0;
+                        bottom:0;
+                        right:0;
+                        left:0;
+                        opacity: 0;
+                        transition: all .3s ease-in-out;
+                        overflow:hidden;               
+                        &:hover{
+                            opacity: .7;
+                            .project-info{
+                                .project-details{
+                                    transform: translate3d(0,0,0);
+                                    opacity:1;
+                                }
+                                .project-title{
+                                    transform: translate3d(0,0,0);
+                                    opacity:1;
+                                }
+                            }
+                        }
+
+                        .project-info{
+                            padding:56px;
+                            position:absolute;
+                            bottom:0;
+                            width:100%;
+                            
+                            .project-details{
+                                position:relative;
+                                font-size:1.1rem;
+                                text-transform: capitalize;
+                                margin:0 0 1rem;
+                                transform: translate3d(-200px,0,0);
+                                opacity:0;
+                                transition:transform .5s ease-in-out;                                
+                            }
+                            .project-title{
+                                font-size:1.8rem;
+                                text-transform: uppercase;
+                                font-weight:700;
+                                transform: translate3d(-200px,0,0);
+                                opacity:0;
+                                transition:transform .6s ease-in-out .1s;
+                            }
+                            .fa-arrow-right{
+                                position:absolute;
+                                bottom:56px;
+                                right:56px;
+                                font-size:3rem;
+                                
+                            }
+                        }
+
+
+                       
+
+                    }
+                    
+                    h5{
+                      font-weight: 500;
+                      font-size: 1.3rem;
+                      margin-bottom: 1.4rem;
+                  }
+              
+                  p{
+                      font-weight: 300;
+                      font-size: 1rem;
+                      margin-bottom: 1rem;
+      
+                  }
+                   
+                 }
+
+             }
+        }
+       
+     
+     
+    }
+}

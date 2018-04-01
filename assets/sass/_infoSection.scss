@@ -1,0 +1,36 @@
+.logo{
+    border: 5px solid #fff;
+    height: 130px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2rem;
+    color:white;
+    line-height: 0;
+
+}
+.info-section{
+    padding: 54px;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    .info-box{
+        bottom: 60px;
+        position:absolute;
+        // padding: 54px;
+        h4{
+            font-size: 1.2rem;
+            color: $color3;
+            margin: .7rem 0;
+        }
+        p{
+            font-size: .9rem;
+            font-weight:300;
+            margin: .2rem 0 1.5rem;
+            color: $color3;
+        }
+    }
+}
