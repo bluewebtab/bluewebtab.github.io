@@ -85,7 +85,7 @@ body{
 
 .skillsSection,
 .contactSection{
-   background-color: #2980b9;
+   background-color:  #294ab9;
    color: #fff;
 }
 
@@ -194,7 +194,7 @@ color: #fff;
 .portfolio{
     text-align:center;
     color:white;
-    background: #2980b9;
+    background: #294ab9;
     width:100%;
     padding: 2rem;
     margin:0;
@@ -394,4 +394,11 @@ color: #fff;
 
 .ico{
     margin-left:18rem;
+}
+
+#section2{
+  
+    background:rgba(222, 222, 222, 0.47);
+    
+
 }
