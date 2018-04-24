@@ -123,6 +123,7 @@ body{
 }
 .subHeading{
     font-size:1.5rem;
+    font-weight:500;
 }
 .chart .percent:after{
     content:'%';
