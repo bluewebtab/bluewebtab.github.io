@@ -85,8 +85,8 @@ body{
 
 .skillsSection,
 .contactSection{
-   background-color:  #294ab9;
-   color: #fff;
+   background-color:  #b2b2b2;
+   
 }
 
 
@@ -122,24 +122,25 @@ body{
     padding:2rem 0;
 }
 .subHeading{
-    font-size:1.2rem;
+    font-size:1.5rem;
 }
 .chart .percent:after{
     content:'%';
 }
 
 .contactButton{
-    color:#fff;
+    color:#0b0b0b;
+    font-weight:500;
     padding: 15px 20px;
     display:inline-block;
     margin-top: 20px;
-    border: 1px solid #ffff;
+    border: 1.5px solid #ffff;
     border-radius: 2px;
 }
 
 .contactButton:hover {
   text-decoration:none;
-    color:#2980b9;
+    color: #0b0b0b;
     background-color:#fff;
 }
 
@@ -193,14 +194,14 @@ color: #fff;
 
 .portfolio{
     text-align:center;
-    color:white;
-    background: #294ab9;
+    
+    background: #b2b2b2;
     width:100%;
     padding: 2rem;
     margin:0;
 }
 #about{
-    background:rgba(222, 222, 222, 0.47);
+
     
 }
 /*///////MEXANDMUNCH///////////*/
@@ -426,9 +427,3 @@ color: #fff;
     margin-left:18rem;
 }
 
-#section2{
-  
-    background:rgba(222, 222, 222, 0.47);
-    
-
-}
