@@ -1,20 +1,21 @@
-*{
+* {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-a{
-    text-decoration:none !important;
+
+a {
+    text-decoration: none !important;
 }
 
-body{
+body {
     font-size: 14px;
-    color:#333;
+    color: #333;
     background-color: #fff;
     letter-spacing: 1px;
 }
 
 
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -22,15 +23,15 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.slides-navigation{
-   z-index: 6; 
+.slides-navigation {
+    z-index: 6;
 }
 
 .slides-navigation .prev,
 .slides-navigation .next {
     width: 47px;
     height: 47px;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -40,261 +41,263 @@ body{
 }
 
 .slides-navigation a.next {
-   right: 20px;
+    right: 20px;
     background-image: url(../img/icons/next.png);
 }
 
-.titleMessage{
-    position:absolute;
-    width:100%;
-    height:250px;
-    top:50%;
+.titleMessage {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
     z-index: 5;
-    text-align:center;
+    text-align: center;
     margin-top: -125px;
 }
 
-.titleMessage .heading p{
+.titleMessage .heading p {
     color: #fff;
-    text-shadow: 0px 2px 5px rgba(0,0,0, 0.4);
-    font-weight:100;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
     letter-spacing: 7px;
 }
 
-.titleMessage .heading .main{
+.titleMessage .heading .main {
     font-size: 50px;
 }
 
 
-.titleMessage .heading .sub{
+.titleMessage .heading .sub {
     font-size: 30px;
 }
 
-.section{
+.section {
     padding: 100px 0;
-    
+
 }
 
-.aboutImage{
+.aboutImage {
     max-width: 100%;
 }
-.aboutMe{
-    margin-top:2rem;
-    line-height:2rem;
+
+.aboutMe {
+    margin-top: 2rem;
+    line-height: 2rem;
 }
 
 .skillsSection,
-.contactSection{
-   background-color:  #b2b2b2;
-   
+.contactSection {
+    background-color: #b2b2b2;
+
 }
 
 
 
-.skill{
-    text-align:center;
-    margin-left:10px;
+.skill {
+    text-align: center;
+    margin-left: 10px;
 }
 
-.chart{
-    position:relative;
+.chart {
+    position: relative;
     width: 152px;
     height: 152px;
-    display:inline-block;
+    display: inline-block;
 
-    text-align:center;
+    text-align: center;
 }
 
-.chart canvas{
-   position:absolute;
-    left:0;
-    top:0;
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-.chart .percent{
-    color:#000;
+.chart .percent {
+    color: #000;
     line-height: 152px;
-    display:inline-block;
+    display: inline-block;
     font-size: 35px;
 }
 
-.contactSection{
-    padding:2rem 0;
-}
-.subHeading{
-    font-size:1.5rem;
-    font-weight:500;
-}
-.chart .percent:after{
-    content:'%';
+.contactSection {
+    padding: 2rem 0;
 }
 
-.contactButton{
-    color:#0b0b0b;
-    font-weight:500;
+.subHeading {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.chart .percent:after {
+    content: '%';
+}
+
+.contactButton {
+    color: #0b0b0b;
+    font-weight: 500;
     padding: 15px 20px;
-    display:inline-block;
+    display: inline-block;
     margin-top: 20px;
     border: 1.5px solid #ffff;
     border-radius: 2px;
 }
 
 .contactButton:hover {
-  text-decoration:none;
+    text-decoration: none;
     color: #0b0b0b;
-    background-color:#fff;
+    background-color: #fff;
 }
 
 
-.filter a{
+.filter a {
     color: #bdc3c7;
-    border:1px solid #bdc3c7;
+    border: 1px solid #bdc3c7;
     padding: 10px 18px;
-    display:block;
+    display: block;
 
 }
 
 .filter li {
-    display:inline-block;
-    padding:5px;
+    display: inline-block;
+    padding: 5px;
 }
 
-.filter .current{
-background-color: #2980b9;
-border-color: #2980b9;
-color: #fff;
+.filter .current {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    color: #fff;
 
 }
 
 .filter {
-    text-align:center;
-    width:100%;
+    text-align: center;
+    width: 100%;
 }
 
 .section .heading {
-    text-align:center;
+    text-align: center;
     padding-bottom: 40px;
-    width:100%;
+    width: 100%;
 }
 
 /*changes for future addition of projects*/
 
 .item {
-      display:block;
-      
+    display: block;
+
 }
 
-.item  img{
-    margin:1rem;
-    width:100%;
-    height:12rem;
-  
+.item img {
+    margin: 1rem;
+    width: 100%;
+    height: 12rem;
+
 }
 
 
 
-.portfolio{
-    text-align:center;
-    
+.portfolio {
+    text-align: center;
+
     background: #b2b2b2;
-    width:100%;
+    width: 100%;
     padding: 2rem;
-    margin:0;
+    margin: 0;
 }
-#about{
 
-    
-}
+#about {}
+
 /*///////MEXANDMUNCH///////////*/
-.mex-pic{
+
+.mex-pic {
     background: url(/img/mexandmunchwebpng.png);
-    background-size:cover;
-    background-position:center;
-    height:35rem;
-    margin-top:5rem;
-     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 
 .mex-pic::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 
 
-.mex-pic:hover{
+.mex-pic:hover {
 
--webkit-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
 
-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
 }
 
-.mex-pic:hover::after{
-    opacity:1;
+.mex-pic:hover::after {
+    opacity: 1;
 }
 
 /*///////////////////////////////*/
 
-
 /*///////////landing page/////////////*/
 
-.app-pic{
+.app-pic {
     background: url(/img/applandingpage.png);
-    background-size:cover;
-    background-position:center;
-    height:35rem;
-    margin-top:5rem;
-     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 
 .app-pic::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 
 
-.app-pic:hover{
+.app-pic:hover {
 
--webkit-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
 
-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
 }
 
-.app-pic:hover::after{
-    opacity:1;
+.app-pic:hover::after {
+    opacity: 1;
 }
 
 
@@ -302,190 +305,188 @@ transform: scale(1.02, 1.02);
 
 /*////////////brazil travel site///////*/
 
-.brazil-pic{
+.brazil-pic {
     background: url(/img/brazil.jpg);
-    background-size:cover;
-    background-position:center;
-    height:35rem;
-    margin-top:5rem;
-     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 
 .brazil-pic::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 
 
-.brazil-pic:hover{
+.brazil-pic:hover {
 
--webkit-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
 
-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
 }
 
-.brazil-pic:hover::after{
-    opacity:1;
+.brazil-pic:hover::after {
+    opacity: 1;
 }
 
 
 /*//////////drawing  app//////////////*/
-.draw-pic{
+
+.draw-pic {
     background: url(/img/drawingpicapp.jpg);
-    background-size:cover;
-    background-position:center;
-     height:35rem;
-    margin-top:5rem;
-     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 
 .draw-pic::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.draw-pic:hover{
+.draw-pic:hover {
 
--webkit-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
 
-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
 }
 
-.draw-pic:hover::after{
-    opacity:1;
+.draw-pic:hover::after {
+    opacity: 1;
 }
+
 /*///////////////////////////*/
-
 
 /*/////////sneakersite/////////////*/
 
-
-
-.sneaker-pic{
+.sneaker-pic {
     background: url(/img/sneakerweb.png);
-    background-size:cover;
-    background-position:center;
-     height:35rem;
-    margin-top:5rem;
-     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 
 .sneaker-pic::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.sneaker-pic:hover{
+.sneaker-pic:hover {
 
--webkit-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
 
-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
 }
 
-.sneaker-pic:hover::after{
-    opacity:1;
+.sneaker-pic:hover::after {
+    opacity: 1;
 }
+
 /*////////////////////////////////////*/
 
 /*/////////////outdoorsite////////////////*/
 
-.out-pic{
+.out-pic {
     background: url(/img/outdoorwebsite.jpg);
-    background-size:cover;
-    background-position:center;
-    height:35rem;
-    margin-top:5rem;
-     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 
 .out-pic::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 
 
-.out-pic:hover{
+.out-pic:hover {
 
--webkit-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
 
-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
 }
 
-.out-pic:hover::after{
-    opacity:1;
+.out-pic:hover::after {
+    opacity: 1;
 }
 
 
 /*///////////////////////////////////////////*/
 
-.ico{
-    margin-left:18rem;
+.ico {
+    margin-left: 18rem;
 }
-
-
