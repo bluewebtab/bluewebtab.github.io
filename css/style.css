@@ -180,7 +180,7 @@ color: #fff;
 /*changes for future addition of projects*/
 
 .item {
-      display:inline-block;
+      display:block;
       
 }
 
@@ -210,27 +210,10 @@ color: #fff;
     background: url(/img/mexandmunchwebpng.png);
     background-size:cover;
     background-position:center;
-    height:13rem;
+     height:50rem;
     margin-top:2rem;
 }
-.mex-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.mex-pic:hover .mex-text{
-    opacity:0.6;
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
- 
-}
+
 /*///////////////////////////////*/
 
 
@@ -240,27 +223,9 @@ color: #fff;
     background: url(/img/applandingpage.png);
     background-size:cover;
     background-position:center;
-    height:13rem;
-    margin-top:2rem;
+     height:50rem;
+    margin-top:5rem;
    
-}
-.app-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.app-pic:hover .app-text{
-    opacity:0.6;
-   
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
 }
 
 
@@ -272,27 +237,9 @@ color: #fff;
     background: url(/img/brazil.jpg);
     background-size:cover;
     background-position:center;
-    height:13rem;
+     height:50rem;
     margin-top:2rem;
    
-}
-.brazil-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.brazil-pic:hover .brazil-text{
-    opacity:0.6;
-   
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
 }
 
 
@@ -301,28 +248,11 @@ color: #fff;
     background: url(/img/drawingpicapp.jpg);
     background-size:cover;
     background-position:center;
-    height:13rem;
+     height:50rem;
     margin-top:2rem;
    
 }
-.draw-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.draw-pic:hover .draw-text{
-    opacity:0.6;
-   
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
-}
+
 
 /*///////////////////////////*/
 
@@ -333,28 +263,11 @@ color: #fff;
     background: url(/img/sneakerweb.png);
     background-size:cover;
     background-position:center;
-    height:13rem;
+     height:50rem;
     margin-top:2rem;
    
 }
-.sneaker-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.sneaker-pic:hover .sneaker-text{
-    opacity:0.6;
-   
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
-}
+
 
 /*////////////////////////////////////////////////*/
 
@@ -365,28 +278,11 @@ color: #fff;
     background: url(/img/colored-game.jpg);
     background-size:cover;
     background-position:center;
-    height:13rem;
+     height:50rem;
     margin-top:2rem;
    
 }
-.color-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.color-pic:hover .color-text{
-    opacity:0.6;
-   
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
-}
+
 /*////////////////////////////////////*/
 
 /*/////////////outdoorsite////////////////*/
@@ -395,30 +291,11 @@ color: #fff;
     background: url(/img/outdoorwebsite.jpg);
     background-size:cover;
     background-position:center;
-    height:13rem;
+    height:50rem;
+    
     margin-top:2rem;
    
 }
-.out-text{
-    width:100%;
-    height:100%;
-    font-size:90%;
-    background:#FFF;
-    opacity:0;
-}
-.out-pic:hover .out-text{
-    opacity:0.6;
-   
-    text-align:center;
-    color:#000;
-    font-size:3rem;
-    font-weight:700;
-    padding-top:15vh;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;    
-}
-
-
 
 
 
