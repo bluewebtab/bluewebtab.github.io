@@ -214,7 +214,7 @@ body {
     background: url(/img/mexandmunchwebpng.png);
     background-size: cover;
     background-position: center;
-    height: 35rem;
+    height: 20rem;
     margin-top: 5rem;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -225,6 +225,7 @@ body {
 }
 
 .mex-pic::after {
+    
     content: "";
     border-radius: 5px;
     position: absolute;
@@ -253,6 +254,7 @@ body {
     opacity: 1;
 }
 
+
 /*///////////////////////////////*/
 
 /*///////////landing page/////////////*/
@@ -261,7 +263,7 @@ body {
     background: url(/img/applandingpage.png);
     background-size: cover;
     background-position: center;
-    height: 35rem;
+    height: 20rem;
     margin-top: 5rem;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -309,7 +311,7 @@ body {
     background: url(/img/brazil.jpg);
     background-size: cover;
     background-position: center;
-    height: 35rem;
+    height: 20rem;
     margin-top: 5rem;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -355,7 +357,7 @@ body {
     background: url(/img/drawingpicapp.jpg);
     background-size: cover;
     background-position: center;
-    height: 35rem;
+    height: 20rem;
     margin-top: 5rem;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -400,7 +402,7 @@ body {
     background: url(/img/sneakerweb.png);
     background-size: cover;
     background-position: center;
-    height: 35rem;
+    height: 20rem;
     margin-top: 5rem;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -442,10 +444,11 @@ body {
 /*/////////////outdoorsite////////////////*/
 
 .out-pic {
+    
     background: url(/img/outdoorwebsite.jpg);
     background-size: cover;
     background-position: center;
-    height: 35rem;
+    height: 20rem;
     margin-top: 5rem;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -489,4 +492,38 @@ body {
 
 .ico {
     margin-left: 18rem;
+}
+
+
+
+
+/*/////text for sites//////*/
+.text-desc{
+/*    position:absolute;*/
+    margin-left: 4rem;
+   
+    margin-top: 8rem;
+   
+    background:#fff;
+    width:70%;
+    padding: 0 5px;
+    
+    
+}
+.text-desc h1{
+ 
+ border: 1px solid #0962ba;
+  border-radius:5px;  
+  text-align:center;
+}
+.text-desc p{
+    margin-top:1rem;
+    margin-left:2rem;
+    font-size:1rem;
+    padding: 0 5px;
+    
+}
+.text-desc span{
+    font-weight: 500;
+    padding:0 5px;
 }
