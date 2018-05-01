@@ -80,9 +80,13 @@ body {
     max-width: 100%;
 }
 
+.name1{
+    text-align:center;
+}
 .aboutMe {
     margin-top: 2rem;
     line-height: 2rem;
+    text-align:center;
 }
 
 .skillsSection,
@@ -185,6 +189,7 @@ body {
 
 .item {
     display: block;
+    
 
 }
 
@@ -500,9 +505,9 @@ body {
 /*/////text for sites//////*/
 .text-desc{
 /*    position:absolute;*/
-    margin-left: 4rem;
+    margin: 8rem auto;
    
-    margin-top: 8rem;
+/*    margin-top: 8rem;*/
    
     background:#fff;
     width:70%;
