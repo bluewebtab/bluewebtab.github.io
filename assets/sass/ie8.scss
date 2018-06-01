@@ -157,12 +157,16 @@
 /* Banner */
 
 	#banner {
+        
 		.logo {
+           
 			.icon {
 				border: solid 2px _palette(fg-bold);
 				-ms-behavior: url('assets/js/ie/PIE.htc');
 			}
 		}
+        
+        
 
 		h2 {
 			border-bottom: solid 2px _palette(fg-bold);
