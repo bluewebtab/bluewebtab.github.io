@@ -25,7 +25,7 @@ function openSlideMenu(){
 }
 
 function closeSlideMenu(){
-    document.getElementById('side-menu').style.width = '0';
+     document.getElementById('side-menu').style.width = '0';
     
    
 }
