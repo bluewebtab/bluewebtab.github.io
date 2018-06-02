@@ -3301,12 +3301,15 @@ a.btn-close:hover {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
+                padding-top: 5em ;
+
+/*				padding: 7em 0 8.25em 0 ;*/
 				background-color: #2e3141;
 				
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
+                min-height: 23rem;
 			}
 
 		}
@@ -3314,7 +3317,9 @@ a.btn-close:hover {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+                padding-top: 5em ;
+
+/*				padding: 12em 3em 12.375em 3em ;*/
 				margin-bottom: -4.75em;
 			}
 
@@ -3327,7 +3332,9 @@ a.btn-close:hover {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+                padding-top: 5em ;
+
+/*				padding: 5em 2em 4.25em 2em ;*/
 				margin-bottom: -2.5em;
 			}
 
@@ -3344,7 +3351,7 @@ a.btn-close:hover {
 				}
 
 				#banner p {
-					font-size: 0.8em;
+					font-size: 1.3em;
 				}
 
 		}
