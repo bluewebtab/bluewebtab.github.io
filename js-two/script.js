@@ -17,17 +17,42 @@ $(document).ready(function() {
 	
 });
 
+var wrap = document.getElementById('page-wrapper');
+var menuBtn = document.querySelector('.menu-btn');
+var menu = document.querySelector('.menu');
+var menuNav = document.querySelector('.menu-nav');
+var menuBranding = document.querySelector('.menu-branding');
+var navItems = document.querySelectorAll('.nav-item');
+var showMenu = false;
 
-function openSlideMenu(){
-    document.getElementById('side-menu').style.width = '250px';
-    
-   
-}
+menuBtn.addEventListener('click', toggleMenu);
 
-function closeSlideMenu(){
-     document.getElementById('side-menu').style.width = '0';
-    
-   
+function toggleMenu(){
+
+    if(!showMenu){
+      menuBtn.classList.add('close');  
+      menu.classList.add('show'); 
+      menuNav.classList.add('show');
+      menuBranding.classList.add('show');  
+
+      navItems.forEach(function (item) {
+         item.classList.add('show');
+});
+    showMenu = true;
+        
+    console.log(showMenu)
+    }else{
+        menuBtn.classList.remove('close');  
+      menu.classList.remove('show'); 
+      menuNav.classList.remove('show');
+      menuBranding.classList.remove('show');  
+
+      navItems.forEach(function (item) {
+          item.classList.remove('show');
+});
+    showMenu = false;
+        
+    }
 }
 
 
